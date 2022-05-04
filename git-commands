@@ -1,0 +1,12 @@
+========================
+
+
+git init		-->	create a local repository
+
+git config --global user.name  --> create a user so everybody knew who committed the changes
+
+git config --global user.email 	-->	create a email so everybody knew who committed the changes
+
+
+
+
