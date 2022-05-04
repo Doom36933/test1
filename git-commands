@@ -1,5 +1,9 @@
 ========================
 
+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	--> token	
+
+
+=======================
 
 git init		-->	create a local repository
 
@@ -31,3 +35,15 @@ git merge branch_name		-->	merger the branch with the master branch ( we should 
 git branch -d branch_name	--> delete the branch
 
 git branch -b branch_name		--> create a branch and automatiallcy check in to the new branch
+
+===================================================
+
+
+ git remote add origin https://github.com/Doom36933/test1.git	--> add remote repository to local repo
+
+
+
+git clone url_link_of_the_remote_repo		--> copy the remote repo to the local repo
+
+
+git pull origin master 		--> pull all files from the remote repo
