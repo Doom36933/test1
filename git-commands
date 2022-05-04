@@ -9,4 +9,25 @@ git config --global user.email 	-->	create a email so everybody knew who committ
 
 
 
+git add filename 	--> add a file to the staging area
 
+	( local repository  -> staging area -> git repository )
+
+git add .	--> add all files present in the local repository to staging area
+
+
+git commit -m "comment" file_name  	--> commit the files
+
+
+git branch 		--> show all branches available
+
+git branch new_branch_name	--> create new bracnh
+
+git checkout branch_name   	--> moved to another branch
+
+git merge branch_name		-->	merger the branch with the master branch ( we should be in master branch to do the merge command)
+
+
+git branch -d branch_name	--> delete the branch
+
+git branch -b branch_name		--> create a branch and automatiallcy check in to the new branch
